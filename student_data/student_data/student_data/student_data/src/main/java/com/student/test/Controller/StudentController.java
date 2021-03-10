@@ -82,7 +82,7 @@ public class StudentController {
 
 	//DELETE THE STUDENT
 	
-	@DeleteMapping("/students/{stu_id}")
+	@DeleteMapping("/students/{studentId}")
 	public ResponseEntity<HttpStatus> deleteStudent(@PathVariable String studentId){
 		try 
 		{
